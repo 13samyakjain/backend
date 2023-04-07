@@ -3,7 +3,8 @@
 // This is a dummy backend code that simply returns a response object
 // with a predefined message and timestamp.
 
-const express = require('express');
+const express = require('express')
+
 const app = express();
 
 app.get('/', (req, res) => {
